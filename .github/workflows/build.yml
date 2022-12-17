@@ -12,9 +12,7 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-          
-      - name: installAnalytics
-        run: npm install @vercel/analytics
+  
       - run: yarn install --frozen-lockfile
       - name: build
 #        TODO Enable those lines below if you use a Redis cache, you'll also need to configure GitHub Repository Secrets
