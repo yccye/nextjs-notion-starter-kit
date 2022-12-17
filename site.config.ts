@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'ycy',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: ' ',
 
   // social usernames (optional)
   twitter: '',
@@ -50,13 +50,15 @@ export default siteConfig({
 //   navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'About',
+     {
+      title: '首页',
+      pageId: 'https://www.notion.so/wiycy/0deaeddb8a434574bdb5dbf28f067a18'
+    }，{
+      title: '文章',
+      pageId: 'https://wiycy.notion.site/d1ceb47b595347a982f07fae29308603'
+    }，{
+      title: '关于',
       pageId: 'https://wiycy.notion.site/6a3f0658962c41e9a5643e0c4a88a260'
     }
-//     {
-//       title: 'Contact',
-//       pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-//     }
   ]
 })
