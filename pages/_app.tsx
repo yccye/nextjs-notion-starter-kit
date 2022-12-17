@@ -24,6 +24,7 @@ import * as Fathom from 'fathom-client'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import { ThemeProvider } from 'next-themes'
+import { Analytics } from '@vercel/analytics/react';
 import posthog from 'posthog-js'
 
 import { bootstrap } from 'lib/bootstrap-client'
@@ -71,6 +72,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider disableTransitionOnChange>
       <Component {...pageProps} />
+      <Analytics />
     </ThemeProvider>
   )
 }
