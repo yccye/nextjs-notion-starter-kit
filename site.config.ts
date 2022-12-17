@@ -55,10 +55,10 @@ export default siteConfig({
       pageId: 'https://www.notion.so/wiycy/0deaeddb8a434574bdb5dbf28f067a18'
     },{
       title: '文章',
-      pageId: 'https://wiycy.notion.site/d1ceb47b595347a982f07fae29308603'
+      pageId: 'https://www.notion.so/wiycy/d1ceb47b595347a982f07fae29308603'
     },{
       title: '关于',
-      pageId: 'https://wiycy.notion.site/6a3f0658962c41e9a5643e0c4a88a260'
+      pageId: 'https://www.notion.so/wiycy/6a3f0658962c41e9a5643e0c4a88a260'
     }
   ]
 })
