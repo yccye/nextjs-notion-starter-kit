@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: '杂乱无章地记事',
   domain: 'https://www.notion.so/wiycy/0deaeddb8a434574bdb5dbf28f067a18',
-  author: 'ycy',
+  author: 'wiycy',
 
   // open graph metadata (optional)
   description: 'description',
@@ -52,13 +52,13 @@ export default siteConfig({
   navigationLinks: [
      {
       title: '首页',
-      pageId: 'https://www.notion.so/wiycy/0deaeddb8a434574bdb5dbf28f067a18'
+      pageId: '0deaeddb8a434574bdb5dbf28f067a18'
     },{
       title: '文章',
-      pageId: 'https://www.notion.so/wiycy/d1ceb47b595347a982f07fae29308603'
+      pageId: 'd1ceb47b595347a982f07fae29308603'
     },{
       title: '关于',
-      pageId: 'https://www.notion.so/wiycy/6a3f0658962c41e9a5643e0c4a88a260'
+      pageId: '6a3f0658962c41e9a5643e0c4a88a260'
     }
   ]
 })
