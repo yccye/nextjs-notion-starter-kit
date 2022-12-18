@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '杂乱无章地记事',
-  domain: 'https://www.notion.so/wiycy/0deaeddb8a434574bdb5dbf28f067a18',
+  domain: 'https://www.notion.so/wiycy',
   author: 'wiycy',
 
   // open graph metadata (optional)
