@@ -53,12 +53,6 @@ export default siteConfig({
      {
       title: '首页',
       pageId: '0deaeddb8a434574bdb5dbf28f067a18'
-    },{
-      title: '文章',
-      pageId: '0deaeddb8a434574bdb5dbf28f067a18'
-    },{
-      title: '关于',
-      pageId: '0deaeddb8a434574bdb5dbf28f067a18'
     }
   ]
 })
