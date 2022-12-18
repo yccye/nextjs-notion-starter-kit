@@ -23,8 +23,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://gitee.com/wiycy/imagehost/raw/master/img/202212181627103.jpg',
-  defaultPageCover: 'https://gitee.com/wiycy/imagehost/raw/master/img/202212181630981.jpg',
+  defaultPageIcon: null,
+  defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
