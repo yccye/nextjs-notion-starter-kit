@@ -21,9 +21,8 @@ export const PageAside: React.FC<{
     if (!tweet) {
       return null
     }
-
-    return null
+    return <PageActions tweet={tweet} />
   }
 
-  return null
+  return <PageSocial />
 }
